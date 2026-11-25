@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<network-security-config>
+    <!-- Android bloquea HTTP sin cifrar por defecto. La VM aún no tiene HTTPS, así que se permite solo para su IP. -->
+    <domain-config cleartextTrafficPermitted="true">
+        <domain includeSubdomains="false">23.100.86.160</domain>
+    </domain-config>
+</network-security-config>
